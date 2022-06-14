@@ -1,0 +1,90 @@
+body {
+    background-color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    margin:0 auto;   
+}
+.positioned{
+    top: 90px;
+    right: 0px;
+}
+/* color name */
+h1 {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;}
+/* color name*/
+h3{
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h6{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:2px solid rgb red;
+    padding: 10px;
+    margin:10px;
+    border: radius 5px;
+}
+ul{ list-style-type: square;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+ol{
+    list-style-type: upper-roman;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img.small{
+    width: 100px;
+    height: 100px;}
+img.medium{
+ width: 250px;   
+ height: 250px;}
+.box{
+height: 400px;
+width: 400px;
+font-size:small;
+background-color:white;
+}
+.box2{
+  height: 400px;  
+  width: 400px;
+  background-color: white;
+}
+ .box3{
+width: 50px;
+height: 100px;}
+.box4{
+ height: 400px;
+ width: 400px;   
+ background-color: white;
+}
+.box5{
+height: 200px; 
+width:400px ;    
+background:white;
+}
+.menu a{ color: white;}
+.container {
+    position: relative; 
+    }.topright { 
+    position: absolute;
+    
+    top: 8px;
+    
+    right: 40px;
+    
+    font-size: 18px;
+    
+    }img {
+    
+    width: 100%;
+    
+    height: auto;
+    
+    }
+    body{ font-size: 19px;}   
+    p{ width: 70%;}   
+    strong{ font-size: 150%;}   
+    blockquote1{ background: white; height: 100px; width: 200px; font-size:large;font-style:italic}
+    blockquote {background-color:white; height: 50px; width: 300px; font-size:x-large;font-style: italic;}
+    h5{font-style: italic;
+    }
+    blockquote3{ background: white; border: 1px solid red;}
