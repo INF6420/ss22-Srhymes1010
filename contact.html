@@ -6,10 +6,9 @@
     <title>Sarah "Nicky" Rhymes-portfolio,resume and about me</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
-  <body></body>
-    <header></header>
-      <nav></nav>
-        <main></main>
+  <body>
+    <header>
+      <nav>
         <img src="images/my-logo.jpg" class="small" alt="Nicky Rhymes logo" />
         <div class="topright">
           <ul class="menu">
@@ -38,29 +37,43 @@
             <li><a href="contact.html">contact</a></li>
           </ul>
         </div>
-      <nav></nav>
-   <header></header>
-      <img src="images/me.jpg" class="medium" alt="Image of me" />
-      <h1>Welcome to my Website!</h1>
+      </nav>
+      <main>
+        <h1>Contact</h1> 
+      <form action="https://formspree.io/f/xyyoqbao" method="POST" data-validate> 
+        <div>
+        <label for="name">Name</label>
+        <input name="name" id ="name"  type="text" 
+        class="form-input">
+        </div>
 
-      <p>
-        <blockquote3>
-          This website is my digital portfolio, resume, and information about
-          me.</blockquote3 >
-      </p>
+        <div>
+        <label for="email"> Email</label>
+        <input name= "email" id="Email" type="email" 
+          class = "form-input" required>
+        </div>
 
-      <p>
-        If you would like to get in touch with me my contact info is above in
-        the top right.
-        </p>
-        <p>Or you may contact by messaging me on the Contact page.</p>
-        <main></main>
-    <footer>
+        <div>
+        <label for="message">Message</label>
+        <textarea id= "message" name="message" 
+        class="form-input" rows="4" required></textarea>
+        </div>
       <div>
-        <div>Copyright Information</div>
-        <p>2022 Sarah "Nicky" Rhymes</p>
+        <input type="submit" value="Send">
       </div>
-   <main></main>
-    </footer>
-  <body> </body>
+      
+      </form>
+      </main>
+      <footer>
+        <div>
+            <div>Copyright Information</div>
+            <p>2022 Sarah "Nicky" Rhymes</p>
+          </div>
+      </footer>
+      <script src= "https://cdn.jsdelivr.net/gh/cferdinandi/validate@2.2.0/dist/validate.min.js" ></script>
+      <script>
+        validate.init();
+      </script>
+    </header>
+  </body>
 </html>
